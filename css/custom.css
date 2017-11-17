@@ -1,11 +1,11 @@
 /**
- * Chrome Extension Twitter Bootstrap 3 Template
+ *
  * Custom CSS
  *
  */
 
 body, section {			/* Change width and height to own preferences */
-	width: 500px;
+	width: 400px;
 	/*height: 1000px;*/
 	overflow-x: hidden;
 }
@@ -16,6 +16,8 @@ section { padding: 0px;}
 
 .panel, .panel-heading {border-radius: 0px;}
 .panel {margin-bottom: 0px;}
+
+.media-object {margin-top: 5px;}
 
 /* Scroll Bar */
 ::-webkit-scrollbar { width: 6px; }
@@ -74,4 +76,25 @@ section { padding: 0px;}
     box-shadow: inset 0px 0px 0px 30px #FFF;
   }
 }
-HTML
+
+
+
+#credinet-logo-rotate {
+    -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+
+
+
+
+

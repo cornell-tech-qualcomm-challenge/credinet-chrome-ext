@@ -1,7 +1,7 @@
 function getColor(value){
     //value from 0 to 1
     var hue=((value)*120).toString(10);
-    return ["hsl(",hue,",100%,50%)"].join("");
+    return ["hsl(",hue,",90%,30%)"].join("");
 }
 
 // document.querySelectorAll(
@@ -9,7 +9,11 @@ function getColor(value){
 // )[1].classList.add("crediscore-badge");
 
 // var random_score = Math.round(Math.random()*100);
-
+// var angle = 0;
+//     setInterval(function(){
+//           angle+=3;
+//          $("#credinet-logo-rotate").rotate(angle);
+//     },20);
 
 $(document).ready(function(){
 	$( ".credinet-score-badge" ).each(function() {
@@ -19,6 +23,8 @@ $(document).ready(function(){
 			);
 
 	});
+
+    
 
     $('[data-toggle="popover"]').popover();
     console.log("ready!");
