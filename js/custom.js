@@ -47,13 +47,18 @@ $(document).ready(function(){
                   </svg>
                 	`
                 );
+
+                // $('.msg-popover').popover('hide');
+
                 // $(".popover, .fade, .right, .in").slideUp( 1500 );
 
 
 //
-
-
-                // $('.msg-popover').popover('hide');
+                // $.delay( 1000 , function(){
+                //     
+                // });
+                
+                
 
 
                 // $.ajax({

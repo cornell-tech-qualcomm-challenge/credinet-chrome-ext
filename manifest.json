@@ -16,7 +16,7 @@
 			"19": "img/icon_green_128.png",
 			"38": "img/icon_green_128.png"
 		},
-		"default_popup": "popup.html"
+		"default_popup": "popup_bad.html"
 	},
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 	"web_accessible_resources": [
