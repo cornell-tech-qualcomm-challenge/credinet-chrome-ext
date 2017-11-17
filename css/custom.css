@@ -6,7 +6,7 @@
 
 body, section {			/* Change width and height to own preferences */
 	width: 500px;
-	height: 700px;
+	/*height: 1000px;*/
 	overflow-x: hidden;
 }
 
@@ -20,4 +20,4 @@ section { padding: 0px;}
 /* Scroll Bar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
-::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: blue; }
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: #3A6DD1; }
