@@ -1,7 +1,7 @@
 /**
  * Chrome Extension Twitter Bootstrap 3 Template
  * Custom CSS
- *	
+ *
  */
 
 body, section {			/* Change width and height to own preferences */
@@ -21,3 +21,57 @@ section { padding: 0px;}
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: #3A6DD1; }
+
+.msg-popover{
+	text-decoration: none;
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #3A6DD1;
+  fill: none;
+  animation: stroke 1s cubic-bezier(0.65, 0, 0.45, 1) none;
+}
+
+.checkmark {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #3A6DD1;
+  stroke-miterlimit: 10;
+  /*margin: 10% auto;*/
+  box-shadow: inset 0px 0px 0px #3A6DD1;
+  animation: fill .8s ease-in-out .6s none, scale .6s ease-in-out 1s none;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.9s cubic-bezier(0.65, 0, 0.45, 1) 1s none;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #FFF;
+  }
+}
+HTML

@@ -13,8 +13,8 @@ function getColor(value){
 
 $(document).ready(function(){
 	$( ".credinet-score-badge" ).each(function() {
-		
-		$(this).css('background-color', 
+
+		$(this).css('background-color',
 			getColor($(this).data( "score" )).toString()
 			);
 
@@ -35,13 +35,16 @@ $(document).ready(function(){
                 console.log("Message sent!");
                 $('.popover-content').html(
                 	`
-                	<h5 style='color: #5cb85c;'>Message Sent!</h5>
-                	`	
+                  <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                  </svg>
+                	`
                 );
-                $(".popover, .fade, .right, .in").slideUp( 1500 );
+                // $(".popover, .fade, .right, .in").slideUp( 1500 );
 
 
-                
+//
 
 
                 // $('.msg-popover').popover('hide');
